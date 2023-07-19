@@ -28,9 +28,9 @@ void main() {
   print(1 >= 2);
 
   //logical
-  print(2 == 1 && 2 == 2);
-  print(2 == 1 || 2 == 2);
+  print(2 == 1 && 2 == 2); //dan
+  print(2 == 1 || 2 == 2); //atau
 
-  bool notTrue = !true;
+  bool notTrue = !true; //kebalikan
   print(notTrue);
 }
