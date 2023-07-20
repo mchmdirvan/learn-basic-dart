@@ -9,4 +9,9 @@ void main() {
 
   var StringFromInt = inputInt.toString(); // int to str
   var stringFromDouble = inputDouble.toString();
+
+  print(doubleFromInt);
+  print(intFromDouble);
+  print(StringFromInt);
+  print(stringFromDouble);
 }

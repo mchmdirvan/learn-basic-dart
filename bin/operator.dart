@@ -33,4 +33,17 @@ void main() {
 
   bool notTrue = !true; //kebalikan
   print(notTrue);
+
+  //type test : as,is !is
+  dynamic variable = 100;
+  var variableInt =
+      variable as int; // typecast melakukan konversi data secara paksa
+
+  var isInt = variable is int; // true,jika object sesuai data
+  var isNotBoolean = variable is! int;
+
+  print(variable);
+  print(variableInt);
+  print(isInt);
+  print(isNotBoolean);
 }
