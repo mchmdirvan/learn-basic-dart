@@ -13,15 +13,22 @@ void main() {
     'Lisya', //menambahkan secara langsung
   ];
 
-  names.add('Eko'); //menambahkan data list.add(value)
+  //menambahkan data list.add(value)
+  names.add('Eko');
   names.add('Kurniawan');
   print(names);
 
-  print(names[0]); // mengecek data index
-  names[0] = 'Irvan'; //mengubah data list[index]=value
-  print(names);
-  names.removeAt(0); // menghapus data list.removeat(index)
+  // mengecek data index
+  print(names[0]);
 
+  //mengubah data list[index]=value
+  names[0] = 'Irvan';
   print(names);
-  print(names.length); //mengecek panjang variable.length
+
+  // menghapus data list.removeat(index)
+  names.removeAt(0);
+  print(names);
+
+  //mengecek panjang variable.length
+  print(names.length);
 }

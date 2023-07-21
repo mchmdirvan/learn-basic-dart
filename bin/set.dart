@@ -3,7 +3,11 @@ void main() {
   // dan tidak ada index
 
   //set<tipeData>namaVariable={};
+
   // var namaVariable=<tipeData>{};
+  // namaVariable.add('value')
+
+  //deklarasi secara langsung
   var names = <String>{
     'Mochamad',
     'Irvan',
