@@ -1,5 +1,8 @@
 void main() {
-  //do something {while(nilaiBool)}
+  //do {
+  //  something
+  //}while (condition)
+
   var i = 100;
   do {
     print(i);

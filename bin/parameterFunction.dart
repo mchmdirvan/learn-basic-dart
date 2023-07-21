@@ -1,12 +1,14 @@
 //Mengirim data saat menjalankan Fungs
-//tipeData namaFungsi (tipeData namaFungsi){doSomething}
+//tipeData namaFungsi (tipeData parameter){
+//doSomething
+//}
 
-void tampil(String teks) {
-  print(teks);
+void sayHello(var firstName, var lastName) {
+  print('Hello $firstName $lastName');
 }
 
 void main() {
-  //namaFungsi(namaFungsi)
-  tampil('Halo');
-  tampil('Selamat Datang');
+  //panggil namaFungsi(parameter)
+  sayHello('Eko', 'Khannedy');
+  sayHello('Budi', 'Nugraha');
 }

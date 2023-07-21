@@ -1,8 +1,12 @@
 void main() {
-  // while (nilai bool){doSomething}
+  // while (condition){
+  // doSomething
+  // }
+
   var i = 0;
+
   while (i < 10) {
-    print(i);
+    print('perulangan ke-$i');
     i++;
   }
 }
